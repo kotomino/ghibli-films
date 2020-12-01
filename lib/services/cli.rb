@@ -1,7 +1,7 @@
 class Cli
 
     def start
-        puts "Welcome, Pokemon Trainer!"
+        puts "Welcome, Ghibli Studio lover!"
         puts "Loading..."
     end
 end

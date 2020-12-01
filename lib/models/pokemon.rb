@@ -1,2 +1,0 @@
-class Pokemon 
-end
