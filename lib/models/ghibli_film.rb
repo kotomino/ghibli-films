@@ -3,10 +3,11 @@ class GhibliFilm
 
     @@all = []
 
-    def initialize(data)
-        self.title = data["title"]
-        self.director = data["director"]
-        self.release_date = data["release_date"]
+    def initialize(title, director, release_date, description)
+        self.title = title
+        self.director = director
+        self.release_date = release_date
+        self.description = description
 
         @@all << self
     end
