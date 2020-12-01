@@ -9,4 +9,6 @@ class Api
         binding.pry
     end
 
+    test
+
 end
