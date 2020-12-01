@@ -2,13 +2,12 @@ class Api
 
     URL = "https://ghibliapi.herokuapp.com/"
 
-    def self.get_data
-        uri = URI(URL + "films")
+    def self.load_data
+        uri = URI('https://ghibliapi.herokuapp.com/films')
         response = Net::HTTP.get(uri)
-        response.body
-        binding.pry
-    end
 
-    test
+        data = JSON.parse(response)
+        
+    end
 
 end
