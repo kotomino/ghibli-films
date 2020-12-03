@@ -1,5 +1,6 @@
+Build application that displays information about Ghibli films.
 
-
+Workflow:
 1. Greet User
 2. Load Ghibli API 
 3. Main Menu Options
