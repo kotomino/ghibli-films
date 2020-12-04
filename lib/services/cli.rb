@@ -3,7 +3,7 @@ class Cli
     def start
         puts ""
         puts "\t -------------------------------------------"
-        puts "\t   ~~~~ Welcome, Studio Ghibli lover! ~~~~"
+        puts "\t   ~~~~ Welcome, Studio Ghibli Lover! ~~~~"
         puts "\t -------------------------------------------"
         puts ""
         puts "\t   ... Loading data from Studio Ghibli ..."
